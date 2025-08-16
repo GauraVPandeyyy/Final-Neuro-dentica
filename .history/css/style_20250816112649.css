@@ -11891,7 +11891,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 5em 0 0 0;
+  padding: 7em 0;
   position: relative;
 }
 
@@ -13537,17 +13537,17 @@ textarea.form-control {
   border: 1px solid #eee;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  height: 100%;
 }
 
 .doctor-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
   border-color: #007bff;
 }
 
 .doctor-img {
-  height: 250px;
+  height: 280px;
   overflow: hidden;
 }
 
@@ -13555,38 +13555,32 @@ textarea.form-control {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top;
   transition: transform .4s ease;
 }
 
 .doctor-card:hover .doctor-img img {
-  transform: scale(1.08);
+  transform: scale(1.1);
 }
 
-.doctor-info h3 {
+.doctor-info {
+  flex-grow: 1;
+}
+
+.doctor-name {
   font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
-.doctor-info h3 a {
-  text-decoration: none;
-  color: #222;
-}
-
-.doctor-info h3 a:hover {
-  color: #007bff;
-}
-
-.position {
+.doctor-speciality {
   font-size: 0.9rem;
-  font-weight: 500;
   color: #007bff;
+  font-weight: 500;
 }
 
 .doctor-info p {
-  font-size: 0.9rem;
-  line-height: 1.5;
+  font-size: 0.85rem;
+  line-height: 1.4;
   color: #555;
-  margin-top: 8px;
+  margin-top: 10px;
 }

@@ -11891,7 +11891,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 5em 0 0 0;
+  padding: 7em 0;
   position: relative;
 }
 
@@ -13524,69 +13524,75 @@ textarea.form-control {
 }
 
 
-/* Doctors Section */
-.team-section {
-  padding: 80px 0;
-}
+<section class="ftco-section bg-light team-section">
+  <div class="container">
+    <!-- Heading -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-8 text-center heading-section ftco-animate">
+        <h2 class="mb-3">Meet Our Expert Doctors</h2>
+        <p class="text-muted">At <strong>Neuro Dentica</strong>, our doctors combine years of expertise with compassionate care, delivering excellence in Brain, Spine, Dental, and Surgical specialties.</p>
+      </div>
+    </div>
 
-.doctor-card {
-  background: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  border: 1px solid #eee;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
+    <!-- Doctors Grid -->
+    <div class="row g-4">
+      
+      <!-- Doctor 1 -->
+      <div class="col-lg-3 col-md-6 ftco-animate">
+        <div class="doctor-card shadow-sm">
+          <div class="doctor-img">
+            <img src="./doctor-profile/Dr Shaily Tyagi.png" alt="Dr. Shaily Tyagi">
+          </div>
+          <div class="doctor-info text-center p-3">
+            <h5 class="doctor-name">Dr. Shaily Tyagi</h5>
+            <span class="doctor-speciality">Dentist</span>
+            <p class="small mt-2">BDS, MDS – Renowned Prosthodontist and Oral Implantologist in Lucknow.</p>
+          </div>
+        </div>
+      </div>
 
-.doctor-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
-  border-color: #007bff;
-}
+      <!-- Doctor 2 -->
+      <div class="col-lg-3 col-md-6 ftco-animate">
+        <div class="doctor-card shadow-sm">
+          <div class="doctor-img">
+            <img src="./doctor-profile/Dr Syamantak Srivastava.jpeg" alt="Dr. Syamantak Srivastava">
+          </div>
+          <div class="doctor-info text-center p-3">
+            <h5 class="doctor-name">Dr. Syamantak Srivastava</h5>
+            <span class="doctor-speciality">Neurosurgeon</span>
+            <p class="small mt-2">MBBS, MS, MCh – Specialist in Brain, Spine & Peripheral Nerve Surgery.</p>
+          </div>
+        </div>
+      </div>
 
-.doctor-img {
-  height: 250px;
-  overflow: hidden;
-}
+      <!-- Doctor 3 -->
+      <div class="col-lg-3 col-md-6 ftco-animate">
+        <div class="doctor-card shadow-sm">
+          <div class="doctor-img">
+            <img src="./doctor-profile/Dr Ram Kumar Srivastav.png" alt="Dr. Ram Kumar Srivastava">
+          </div>
+          <div class="doctor-info text-center p-3">
+            <h5 class="doctor-name">Dr. Ram Kumar Srivastava</h5>
+            <span class="doctor-speciality">Senior Consultant</span>
+            <p class="small mt-2">BDS, MDS – Senior Cranial & Maxillofacial Surgeon with vast expertise.</p>
+          </div>
+        </div>
+      </div>
 
-.doctor-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top;
-  transition: transform .4s ease;
-}
+      <!-- Doctor 4 -->
+      <div class="col-lg-3 col-md-6 ftco-animate">
+        <div class="doctor-card shadow-sm">
+          <div class="doctor-img">
+            <img src="./doctor-profile/Dr Ashish Anand.jpeg" alt="Dr. Ashish Anand">
+          </div>
+          <div class="doctor-info text-center p-3">
+            <h5 class="doctor-name">Dr. Ashish Anand</h5>
+            <span class="doctor-speciality">General Surgeon</span>
+            <p class="small mt-2">Experienced in a wide range of surgical specialties in Lucknow, India.</p>
+          </div>
+        </div>
+      </div>
 
-.doctor-card:hover .doctor-img img {
-  transform: scale(1.08);
-}
-
-.doctor-info h3 {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 6px;
-}
-
-.doctor-info h3 a {
-  text-decoration: none;
-  color: #222;
-}
-
-.doctor-info h3 a:hover {
-  color: #007bff;
-}
-
-.position {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: #007bff;
-}
-
-.doctor-info p {
-  font-size: 0.9rem;
-  line-height: 1.5;
-  color: #555;
-  margin-top: 8px;
-}
+    </div>
+  </div>
+</section>
