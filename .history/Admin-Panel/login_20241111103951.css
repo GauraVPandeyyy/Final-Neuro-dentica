@@ -1,0 +1,93 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap'); */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; !
+}
+body{
+    background-color: #e8edf2;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 50px 50px -50px darkslategray;
+}
+
+div.container div.myForm{
+    width: 270px;
+    margin-right: 30px;
+}
+div.container div.myForm h2{
+    color: #1c1c1c;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+div.container div.myForm input{
+    border: none;
+    outline: none;
+    border-radius: 0;
+    width: 80%;
+    border-bottom: 2px solid #1c1c1c;
+    margin-bottom: 25px;
+    margin-right: 5px;
+    padding: 7px 0;
+    font-size: 18px;
+}
+div.container div.myForm input::placeholder{
+    font-size: 17px;
+    color: #535353;
+    letter-spacing: 1.1px;
+}
+
+
+div.container div.myForm button{
+    color: white;
+    background-color: #1c1c1c;
+    border:none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 8px 15px;
+    font-weight: 500;
+}
+div.container div.myForm i{
+    font-size: 22px;
+    margin-right: 5px;
+    border: 1.5px solid #000000;
+    padding: 3px;
+    border-radius: 25%;
+}
+div.container div.image img{
+    width: 300px;
+}
+
+div.container div.myForm  a{
+    text-decoration: none;
+    color: black;
+    margin-left: 70px;
+    font-weight: 900;
+}
+
+@media (max-width:650px) {
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+    div.container div.myForm{
+        width: 100%;
+        /* margin-right: 30px; */
+    }
+}
